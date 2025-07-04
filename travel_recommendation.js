@@ -21,6 +21,15 @@ function search(){
             if(searchValue == "temple" || searchValue == "temples"){
                 parse(data.temples);
             }
+            if(searchValue == "australia"){
+                parse(data.countries[0].cities);
+            }
+            if(searchValue == "japan"){
+                parse(data.countries[1].cities);
+            }
+            if(searchValue == "brazil"){
+                parse(data.countries[2].cities);
+            }
             const container = document.getElementById('itemsContainer');
         })
         .catch(error => {
