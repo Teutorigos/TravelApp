@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg");
+}
+
+.barTitle{
+    color: white;
+    font-family:cursive;
+    margin-right: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: black;
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    gap: 5px;
+}
+
+    .search-bar input[type="text"] {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .search-bar button {
+        padding: 5px 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.introTitle {
+    font-size: 50px;
+    color: white;
+}
+
+.introText {
+    font-size: 25px;
+    color:white;
+    max-width: 500px;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.bookButton{
+    background-color: darkgreen;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.fab {
+    color:white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.homeContent {
+    display: inline-block;
+    top: 200px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.aboutContent {
+    display: inline-block;
+    top: 200px;
+    position: absolute;
+    max-width: 1500px; 
+    margin-left: 100px;
+}
+
+.contactContent {
+    display: inline-block;
+    top: 200px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.aboutText{
+    color: white;
+}
+
+.ourTeam{
+    color: white;
+    font-size: 70px;
+}
+
+.teamMember{
+    color: white;
+    font-size: 20px;
+}
+.aboutTable{
+    table-layout: auto;
+    width: 1000px;
+}
+
+.contactText{
+    display: inline-block;
+}
+
+.contactForm{
+    top: 200px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.contactLabel{
+    color: white;
+}
+
+.pageText{
+    display: inline-block;
+    max-width: 700px;
+}
+
+.itemsList{
+    display: inline-block;
+    left: 1000px;
+    position: absolute;
+}
+
+.item-list {
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    color: white;
+  }
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
